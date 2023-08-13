@@ -1,0 +1,155 @@
+/* to make dark theme  */
+:root{
+    --primary-color:#edf2fc;
+    --secondary-color:#212121;
+   
+}
+
+.dark-theme{
+    --primary-color:#000106;
+    --secondary-color:#fff;
+}
+
+/* dark theme end  */
+
+/* nav start  */
+#nav1{
+   background: var(--primary-color);
+}
+
+
+/* toggle bar start  */
+
+#don{
+    color:var(--secondary-color);
+    background-color:var(--primary-color);
+}
+
+
+
+
+/* toggle bar end  */
+
+
+#yg{
+    margin: 0 auto  ;
+   
+    
+}
+#nav2{
+    margin-left: 50px;
+    margin-top: 25px;
+    color: var(--secondary-color);
+    font-size: 1.18rem;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    }
+
+   #nav2:hover{
+    color: rgb(76, 240, 240);
+   } 
+
+/* button of letss connect  */
+#mouse {
+    /* border: 1px solid red; */
+    border: 2px solid var(--secondary-color);
+    margin-left: 90px;
+    font-size: 1.18rem;
+    font-weight: 600;
+    padding: 9px;
+    color: var(--secondary-color);
+    
+}
+
+#mouse:hover{
+    color:blueviolet
+    /* border: 3px solid black; */
+}
+
+
+
+
+#photo1 {
+    margin-top: 25px;
+    width: 50px;
+}
+
+#nav3{
+    /* position: fixed; */
+    height: 654px;
+    width: 100%;
+    background: var(--primary-color);
+    
+}
+
+
+/* moon photo  */
+#photo2{
+    width: 2.5em;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+/* nav end   */
+
+/* for gif */
+
+#gif{
+    width: 100%;
+    border-radius: 20px;
+    height: 200px;
+    
+  
+}
+
+#me{
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+#i{
+    margin-top: 10px;
+    text-align: center
+}
+
+
+/* gif end  */
+
+
+/* about page startedd    */
+
+
+
+
+#animation h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+  
+    white-space: nowrap; /* Keeps the content on a single line */
+    color: rgb(244, 245, 240);
+    font-weight: bolder;
+    font-family: 'PT Serif', serif;
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 4.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+
+
+
